@@ -1,10 +1,10 @@
-# 🔐 Permission Detective
+#  Permission Detective
 
 ### Understand App Permissions. Make Informed Decisions.
 
 ## 🎯 Objective
 
-The objective of **Permission Detective** is to promote digital privacy awareness by helping users understand whether the permissions requested by mobile applications are appropriate for their intended functionality. The project aims to make permission analysis easier through category-based evaluation, allowing users to identify relevant, context-dependent, and potentially unnecessary permissions before granting access.
+The objective of **Permission Detective** is to promote digital privacy awareness by helping users understand whether the permissions requested by mobile applications are appropriate for their intended functionality. 
 
 ## 📌 About the Project
 
