@@ -15,6 +15,7 @@ function getAppDetails() {
         category: category
     };
 }
+
 function getSelectedPermissions() {
     const checkboxes = document.querySelectorAll(
         '#permissions input[type="checkbox"]:checked'
