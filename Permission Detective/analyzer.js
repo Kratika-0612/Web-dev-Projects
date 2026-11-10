@@ -183,13 +183,7 @@ function analyze(selectedPermissions, category) {
                         status: "Contextually Dependent",
                         message:"It may be needed for storage-related features."
                     });
-                }
-                
-                
-                
-                
-                
-                
+                } 
                 else {
                     results.push({
                         permission: pinfo.name,
