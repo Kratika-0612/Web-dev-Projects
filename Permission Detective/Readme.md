@@ -102,5 +102,5 @@ Actual permission requirements depend on the application's functionality and imp
 
 ---
 
-**Developed by**
+**Developed by :**<br>
 Kratika Srivastava
