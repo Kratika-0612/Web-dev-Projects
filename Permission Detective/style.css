@@ -1,0 +1,182 @@
+
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: yellowgreen;
+    font-size: 16px;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Sections / Cards */
+section {
+    background-color: lightsteelblue;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+section h2 {
+    color: #172554;
+    margin-bottom: 18px;
+}
+
+/* Input Fields */
+input[type="text"],
+select {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    margin: 8px 0 18px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+/* Buttons */
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Permission Labels */
+#permissions label {
+    display: block;
+    margin-bottom: 12px;
+    color: black;
+}
+/* Analysis Report */
+#report {
+    background-color: lightsteelblue;
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#report p {
+    color: black;
+}
+
+#results {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#history p{
+    color: black;
+}
+.result-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.result-header h3 {
+    margin: 0;
+    color: #1e293b;
+    font-size: 19px;
+}
+
+.risk-label {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #fef3c7;
+    color: #92400e;
+}
+.status-label {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #dbeafe;
+    color: #1d4ed8;
+    margin-bottom: 12px;
+}
+.description {
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.purpose-section {
+    margin-top: 15px;
+    padding-top: 12px;
+    border-top: 1px solid #e2e8f0;
+}
+
+.purpose-section strong {
+    color: #1e293b;
+}
+
+.purpose-section p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.result-message {
+    margin-top: 14px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #eff6ff;
+    color: #1e40af;
+    font-size: 13px;
+    line-height: 1.6;
+}
+ #app-details h2, #permissions h2, #report h2, #history h2 {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}

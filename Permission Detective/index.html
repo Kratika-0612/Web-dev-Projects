@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permission Detective</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Permission Detective</h1>
+        <p>Understand what you are allowing.</p>
+    </header>
+
+    <main>
+
+        <!-- Application Details -->
+        <section id="app-details">
+            <h2>Application Details</h2>
+
+            <label for="app-name">Application Name:</label>
+            <input type="text" id="app-name" placeholder="Enter application name">
+
+            <label for="platform">Platform:</label>
+            <select id="platform">
+                <option value="">Select Platform</option>
+                <option value="android">Android</option>
+                <option value="ios">iOS</option>
+            </select>
+
+            <label for="category">Application Category:</label>
+            <select id="category">
+                <option value="">Select Category</option>
+                <option value="social">Social Media</option>
+                <option value="communication">Communication</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="shopping">Shopping</option>
+                <option value="education">Education</option>
+                <option value="utility">Utility</option>
+            </select>
+        </section>
+
+
+        <!-- Requested Permissions -->
+        <section id="permissions">
+            <h2>Requested Permissions</h2>
+
+            <label>
+                <input type="checkbox"value="camera"> Camera
+            </label>
+
+            <label>
+                <input type="checkbox" value="microphone"> Microphone
+            </label>
+
+            <label>
+                <input type="checkbox" value="location"> Location
+            </label>
+
+            <label>
+                <input type="checkbox" value="contacts"> Contacts
+            </label>
+
+            <label>
+                <input type="checkbox" value="storage"> Storage / Photos
+            </label>
+
+            <label>
+                <input type="checkbox" value="sms"> SMS
+            </label>
+
+            <label>
+                <input type="checkbox" value="phone"> Phone
+            </label>
+        </section>
+
+
+        <!-- Action Buttons -->
+        <section id="actions">
+            <button id="analyze-btn">Analyze Permissions</button>
+            <button id="reset-btn" type="reset">Reset</button>
+        </section>
+
+
+        <!-- Analysis Report -->
+        <section id="report">
+            <h2>Analysis Report</h2>
+            <div id="results">
+                <p>Your analysis results will appear here.</p>
+            </div>
+        </section>
+
+
+        <!-- Analysis History -->
+        <section id="history">
+            <h2>Analysis History</h2>
+            <div id="history-list">
+                <p>No previous analysis available.</p>
+            </div>
+        </section>
+
+    </main>
+
+<script src="../js/data.js"></script>
+<script src="../js/analyzer.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
+
+
+    
+
+</body>
+</html>
