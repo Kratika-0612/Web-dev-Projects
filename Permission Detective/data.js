@@ -1,3 +1,4 @@
+
 const permissionsData = [
     {
         name: "Camera",
