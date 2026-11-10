@@ -83,6 +83,12 @@ Permission-Detective/
 5. Enter the application details.
 6. Select the permissions to analyse.
 7. Click the **Analyse** button to view the generated report.
+---
+## Interface
+<img width="1413" height="741" alt="PD-1" src="https://github.com/user-attachments/assets/8265d20d-9e59-4fd8-9eee-5933d7202f68" />
+<img width="1261" height="923" alt="PD-2" src="https://github.com/user-attachments/assets/7ade665e-b64c-4388-83f0-8f90bebd3881" />
+
+
 
 ## ⚠️ Disclaimer
 
