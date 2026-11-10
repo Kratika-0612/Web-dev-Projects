@@ -102,4 +102,5 @@ Actual permission requirements depend on the application's functionality and imp
 
 ---
 
-**Developed as a beginner-friendly cybersecurity project to encourage better digital privacy awareness.**
+**Developed by**
+Kratika Srivastava
